@@ -13,6 +13,8 @@
         <module>java-8</module>
         <module>java-11</module>
         <module>java-15</module>
+        <module>java-9</module>
+        <module>java-7</module>
     </modules>
 
     <dependencyManagement>
