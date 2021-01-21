@@ -38,13 +38,16 @@
 
 - [新的日期时间的API](java-8/src/main/java/com/diyishuai/java8/LocalDateAndTimeAndDateTime.java)
 
-- [默认方法](java-8/src/main/java/com/diyishuai/java8/newinterface)
+- [默认/静态方法](java-8/src/main/java/com/diyishuai/java8/newinterface)
 
-- 方法引用
-
-- 构造器引用
+- [方法引用](java-8/src/main/java/com/diyishuai/java8/function/FunctionReference.java)
 
 - [Optional](java-8/src/main/java/com/diyishuai/java8/optional/OptionalDemo.java)
+
+- JVM的新特性
+
+使用元空间`Metaspace`代替持久代（`PermGen space`），JVM参数使用`-XX:MetaSpaceSize`和`-XX:MaxMetaspaceSize`设置大小
+
 ### JDK 9 
 
 ---
