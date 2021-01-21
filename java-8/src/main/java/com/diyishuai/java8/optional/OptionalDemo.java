@@ -1,10 +1,8 @@
 package com.diyishuai.java8.optional;
 
 import com.diyishuai.java8.Student;
-import com.diyishuai.java8.newinterface.Human;
 
 import java.util.Optional;
-import java.util.Random;
 
 /**
  * @author Shea

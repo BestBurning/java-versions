@@ -3,10 +3,6 @@
 记录`Java`的版本特性
 
 
-## 历史版本主要特性
-
----
-
 ### **JDK 1.5** 
 
 ---
@@ -36,16 +32,19 @@
 
 ---
 
-- [lambda表达式]()
+- [lambda表达式](./src/main/java/com/diyishuai/java8/lambda/LambdaTest.java)
 
-- Stream API
+- [Stream API](src/main/java/com/diyishuai/java8/stream/StreamAPI.java)
 
-- 新的日期时间的API
+- [新的日期时间的API](src/main/java/com/diyishuai/java8/LocalDateAndTimeAndDateTime.java)
+
+- [默认方法](src/main/java/com/diyishuai/java8/newinterface)
 
 - 方法引用
 
 - 构造器引用
 
+- [Optional](./src/main/java/com/diyishuai/java8/optional/OptionalDemo.java)
 ### JDK 9 
 
 ---
@@ -76,10 +75,14 @@
 
 ### JDK 13
 
+---
+
 - switch表达式引入yield
 - 文本块
 
 ### JDK 14
+
+---
 
 - instanceof模式识别
 - Records
