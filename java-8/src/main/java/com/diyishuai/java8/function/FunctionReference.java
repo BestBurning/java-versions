@@ -21,6 +21,7 @@ public class FunctionReference {
         classConstructorFunctionReference();
         classStaticFunctionReference();
         instanceFunctionReference();
+
     }
 
 
@@ -96,10 +97,6 @@ class Apple {
     public Apple(String id, double weight) {
         this.id = id;
         this.weight = weight;
-    }
-
-    public void show(){
-        System.out.println(this.toString());
     }
 
 }
