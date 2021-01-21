@@ -32,19 +32,19 @@
 
 ---
 
-- [lambda表达式](./src/main/java/com/diyishuai/java8/lambda/LambdaTest.java)
+- [lambda表达式](java-8/src/main/java/com/diyishuai/java8/lambda/LambdaTest.java)
 
-- [Stream API](src/main/java/com/diyishuai/java8/stream/StreamAPI.java)
+- [Stream API](java-8/src/main/java/com/diyishuai/java8/stream/StreamAPI.java)
 
-- [新的日期时间的API](src/main/java/com/diyishuai/java8/LocalDateAndTimeAndDateTime.java)
+- [新的日期时间的API](java-8/src/main/java/com/diyishuai/java8/LocalDateAndTimeAndDateTime.java)
 
-- [默认方法](src/main/java/com/diyishuai/java8/newinterface)
+- [默认方法](java-8/src/main/java/com/diyishuai/java8/newinterface)
 
 - 方法引用
 
 - 构造器引用
 
-- [Optional](./src/main/java/com/diyishuai/java8/optional/OptionalDemo.java)
+- [Optional](java-8/src/main/java/com/diyishuai/java8/optional/OptionalDemo.java)
 ### JDK 9 
 
 ---
