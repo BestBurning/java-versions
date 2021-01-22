@@ -33,17 +33,11 @@
 ---
 
 - [lambda表达式](java-8/src/main/java/com/diyishuai/java8/lambda/LambdaTest.java)
-
 - [Stream API](java-8/src/main/java/com/diyishuai/java8/stream/StreamAPI.java)
-
 - [新的日期时间的API](java-8/src/main/java/com/diyishuai/java8/LocalDateAndTimeAndDateTime.java)
-
 - [默认/静态方法](java-8/src/main/java/com/diyishuai/java8/newinterface)
-
 - [方法引用](java-8/src/main/java/com/diyishuai/java8/function/FunctionReference.java)
-
 - [Optional](java-8/src/main/java/com/diyishuai/java8/optional/OptionalDemo.java)
-
 - JVM的新特性
 
 使用元空间`Metaspace`代替持久代（`PermGen space`），JVM参数使用`-XX:MetaSpaceSize`和`-XX:MaxMetaspaceSize`设置大小
@@ -82,8 +76,12 @@
 
 ---
 
-- ZGC的引入
+- [String API更新](java-11/src/main/java/com/di1shuai/java11/string/StringDemo.java)
+- [Lambda 参数的局部变量语法](java-11/src/main/java/com/di1shuai/java11/lambada/VariableDemo.java)
+- ZGC
 - Epsilon GC
+- 单文件java命令直接编译运行
+- [HTTP Client标准化](java-11/src/main/java/com/di1shuai/java11/http/HTTPClientDemo.java)
 
 ### JDK 12
 
