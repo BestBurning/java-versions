@@ -15,6 +15,7 @@
         <module>java-15</module>
         <module>java-9</module>
         <module>java-7</module>
+        <module>java-10</module>
     </modules>
 
     <dependencyManagement>
