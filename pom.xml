@@ -17,6 +17,7 @@
         <module>java-7</module>
         <module>java-10</module>
         <module>java-12</module>
+        <module>java-13</module>
     </modules>
 
     <dependencyManagement>
