@@ -109,11 +109,14 @@
 - ZGC 增强 - 释放未使用内存
 - SocketAPI 重构
 
-### JDK 14
+### [JDK 14](java-14)
 
 ---
 
-- instanceof模式识别
-- Records
-- 启用Parallel Scavenge+Serial GC组合
-- 删除CMS GC
+- [instanceof模式识别 增强](java-14/src/main/java/com/di1shuai/java14/instance/InstanceOfDemo.java)
+- [Record 类型](java-14/src/main/java/com/di1shuai/java14/record/RecordDemo.java)
+- [异常信息提示改进](java-14/src/main/java/com/di1shuai/java14/nullexception/NullPointerExceptionDemo.java)
+- 其他 
+  - G1 的 NUMA 可识别内存分配
+  - 删除 CMS GC
+  - GC 支持 MacOS 和 Windows 系统
