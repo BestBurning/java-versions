@@ -111,3 +111,7 @@ hs_err_pid*
 
 *.iml
 .idea/*
+*.project
+*.prefs
+*.classpath
+*.factorypath
