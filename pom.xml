@@ -20,6 +20,7 @@
         <module>java-14</module>
         <module>java-15</module>
         <module>java-17</module>
+        <module>java-19</module>
     </modules>
 
     <dependencyManagement>

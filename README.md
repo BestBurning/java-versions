@@ -155,3 +155,16 @@
 - 412：Foreign Function & Memory API（Incubator） / 外部函数和内存 API（孵化器）
 - 414：Vector API （Second Incubator） / 矢量 API（二次孵化）
 - 415：Context-Specific Deserialization Filters / 特定于上下文的反序列化过滤器
+
+
+### [JDK 19](java-19)
+
+---
+
+- [JEP 405: Record Patterns (Preview) ——记录模式](java-19/src/main/java/com/di1shuai/java19/recordcase/Point.java)
+- JEP 422: Linux/RISC-V Port ——Linux/RISC—V端口
+- [JEP 424: Foreign Function & Memory API (Preview) —— 外部函数和内存API](java-19/src/main/java/com/di1shuai/java19/memorycase/Jep424Demo.java)
+- [JEP 425: Virtual Threads (Preview) ——虚拟线程（千呼万唤始出来）](java-19/src/main/java/com/di1shuai/java19/virthread/Jep425Demo.java)
+- JEP 426: Vector API (Fourth Incubator) ——Vector API
+- [JEP 427: Pattern Matching for switch (Third Preview) ——switch的模式匹配](java-19/src/main/java/com/di1shuai/java19/switchcase/SwitchCase.java)
+- [JEP 428: Structured Concurrency (Incubator) ——结构化并发编程](java-19/src/main/java/com/di1shuai/java19/structured/Jep428Demo.java)
