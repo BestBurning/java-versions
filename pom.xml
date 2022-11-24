@@ -21,6 +21,7 @@
         <module>java-15</module>
         <module>java-17</module>
         <module>java-19</module>
+        <module>java-18</module>
     </modules>
 
     <dependencyManagement>

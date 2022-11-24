@@ -1,0 +1,268 @@
+/* * * * * * * * * * * * * * * * * * * * *\ 
+ aurora-ui v1.0.0 
+ UI elements for Aurora Kit 
+ (c) 2015 @elrumordelaluz 
+ https://github.com/aurora-kit/aurora-ui.git 
+ Licensed under  MIT 
+\* * * * * * * * * * * * * * * * * * * * */
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  vertical-align: bottom;
+}
+
+th,
+td {
+  line-height: inherit;
+  padding: .25rem 1rem;
+}
+
+td {
+  vertical-align: top;
+}
+tfoot td {
+  font-style: italic;
+}
+
+caption {
+  color: #e7e7e7;
+  font-size: 1rem;
+  text-align: left;
+}
+
+input,
+select,
+optgroup,
+textarea,
+fieldset {
+  color: inherit;
+  font: inherit;
+  font-size: 1rem;
+  margin: 0;
+}
+input:disabled,
+select:disabled,
+optgroup:disabled,
+textarea:disabled,
+fieldset:disabled {
+  opacity: .65;
+  pointer-events: none;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  border: .0625rem solid #e7e7e7;
+  line-height: 1.5;
+  padding: .325rem .75rem;
+  vertical-align: middle;
+}
+
+label {
+  padding-bottom: .325rem;
+  padding-top: .325rem;
+}
+
+select {
+  border-radius: 0;
+  height: 2.275rem;
+  text-transform: none;
+  vertical-align: middle;
+}
+select[multiple],
+select[size] {
+  border: .0625rem solid #e7e7e7;
+  height: auto;
+  padding: .325rem .75rem;
+}
+
+fieldset {
+  border: .0625rem solid #e7e7e7;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  border: .0625rem solid #e7e7e7;
+  overflow: auto;
+  padding: .325rem .75rem;
+  vertical-align: top;
+}
+
+.ae-table {
+  margin-bottom: .75rem;
+}
+.ae-table td,
+.ae-table th {
+  border-bottom-color: #e7e7e7;
+  border-bottom-style: solid;
+}
+.ae-table td {
+  border-bottom-width: 1px;
+}
+.ae-table th {
+  border-bottom-width: 2px;
+}
+.ae-table tfoot td {
+  color: #858585;
+}
+
+.ae-table--strips tbody tr:nth-of-type(odd) {
+  background-color: #fafafa;
+}
+
+.ae-table--hover tbody tr {
+  -webkit-transition: background-color 250ms;
+          transition: background-color 250ms;
+}
+
+.ae-table--hover tbody tr:hover {
+  background-color: #fafafa;
+}
+
+.ae-table--hover.ae-table--strips tbody tr:hover {
+  background-color: #ededed;
+}
+
+.ae-table--borders {
+  border: 1px solid #e7e7e7;
+  border-bottom: 0;
+}
+.ae-table--borders td,
+.ae-table--borders th {
+  border-right: 1px solid #e7e7e7;
+}
+.ae-table--borders td:last-child,
+.ae-table--borders th:last-child {
+  border-right: 0;
+}
+
+@media (max-width: 39.99em) {
+  .ae-table--responsive.ae-table--borders td {
+    border-right: 0;
+  }
+  .ae-table--responsive td {
+    display: block;
+  }
+  .ae-table--responsive td:before {
+    content: attr(data-th) " ";
+    display: block;
+    font-weight: 500;
+  }
+  .ae-table--responsive th {
+    display: none;
+  }
+}
+
+.ae-list {
+  list-style: none;
+  padding-left: 0;
+}
+.ae-list ul,
+.ae-list ol {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.ae-list--lines li,
+.ae-list--strips li {
+  padding: .275rem .35rem;
+}
+
+.ae-list--lines li:nth-child(n+2) {
+  border-top: 1px solid #e7e7e7;
+}
+
+.ae-list--strips li {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.ae-list--strips li:first-child {
+  border-top: 1px solid #e7e7e7;
+}
+
+.ae-list--strips li:nth-of-type(odd) {
+  background-color: #fafafa;
+}
+
+.ae-form--full input:not([type="checkbox"]):not([type="radio"]),
+.ae-form--full select,
+.ae-form--full textarea,
+.ae-form--full fieldset {
+  display: block;
+  margin-bottom: .5rem;
+  width: 100%;
+}
+
+.ae-form--full label input {
+  display: inline-block;
+}
+
+.ae-form--sm input,
+.ae-form--sm select,
+.ae-form--sm optgroup,
+.ae-form--sm textarea,
+.ae-form--sm fieldset,
+.ae-form--sm label {
+  font-size: .75rem;
+}
+
+.ae-form--sm select {
+  height: 1.9rem;
+}
+
+.ae-form--lg input,
+.ae-form--lg select,
+.ae-form--lg optgroup,
+.ae-form--lg textarea,
+.ae-form--lg fieldset,
+.ae-form--lg label {
+  font-size: 1.25rem;
+}
+
+.ae-form--lg select {
+  height: 2.65rem;
+}
+
+.ae-input--sm {
+  font-size: .75rem;
+}
+
+select.ae-input--sm {
+  height: 1.9rem;
+}
+
+.ae-input--lg {
+  font-size: 1.25rem;
+}
+
+select.ae-input--lg {
+  height: 2.65rem;
+}
