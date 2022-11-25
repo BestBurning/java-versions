@@ -8,6 +8,10 @@ public class InstanceOfCase {
 
     public static void main(String[] args) {
         JDK17_instanceof_switch(1);
+        JDK17_before_instanceof_switch(1);
+        JDK13_switch();
+        JDK12_switch();
+        JDK11_switch();
     }
 
     public static void JDK17_instanceof_switch(Object o) {

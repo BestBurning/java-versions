@@ -7,6 +7,22 @@ import java.util.concurrent.ThreadFactory;
 import java.util.stream.IntStream;
 
 public class Jep425Demo {
+
+
+    public static void main(String[] args) {
+        long startTime = System.currentTimeMillis();
+        firstVirtualThread();
+        System.out.printf("VirtualThread finished, time cost %d ms\n",
+                System.currentTimeMillis() - startTime);
+
+        firstThread();
+        System.out.printf("Thread finished, time cost %d ms\n",
+                System.currentTimeMillis() - startTime);
+
+    }
+
+
+
     public static void firstVirtualThread() {
         // 创建10000个虚拟线程
         try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
@@ -19,13 +35,17 @@ public class Jep425Demo {
         }  // try-with-resources，会隐式调用executor.close()
     }
 
-    public static void main(String[] args) {
-        long startTime = System.currentTimeMillis();
-        firstVirtualThread();
-        System.out.printf("firstVirtualThread finished, time cost %d ms\n",
-                System.currentTimeMillis() - startTime);
+    public static void firstThread() {
+        // 创建10000个线程
+        try (var executor = Executors.newFixedThreadPool(1000)) {
+            IntStream.range(0, 10_000).forEach(i -> {
+                executor.submit(() -> {
+                    Thread.sleep(Duration.ofSeconds(1));
+                    return i;
+                });
+            });
+        }  // try-with-resources，会隐式调用executor.close()
     }
-
 
     private static void infoCurrentThread() {
         Thread thread = Thread.currentThread();

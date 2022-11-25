@@ -7,6 +7,7 @@ public record Point(int x, int y) {
         Point point = new Point(1, 2);
         System.out.println(point);
         System.out.println(point.x());
+        System.out.println(point.y());
 
     }
 
